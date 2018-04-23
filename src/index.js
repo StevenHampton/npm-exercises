@@ -4,4 +4,4 @@ const sayHello = () => console.log("Hello Everybody");
 sayHello();
 
 
-$('body').css("background-color", "blue");
+$('body').css("background-color", "papayawhip");
