@@ -1,3 +1,12 @@
+#OS related ignored files
+.DS_Store
+Thumbd.db
+
+#Editor related filed that the project doesn't need
+.idea/
+*.iml
+
+#NPM ignore
+node_modules
 public/main.js
 *.map
-node_modules
