@@ -1,4 +1,7 @@
-"use strict";
-sayHello(() => {
-    console.log("Hello")
-})();
+const $ = require('jquery');
+
+const sayHello = () => console.log("Hello Everybody");
+sayHello();
+
+
+$('body').css("background-color", "blue");
