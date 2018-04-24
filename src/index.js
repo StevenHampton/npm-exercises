@@ -1,7 +1,9 @@
 const $ = require('jquery');
 
-const sayHello = () => console.log("Hello Everybody");
+const sayHello = () => console.log("Hi, everybody!");
+
 sayHello();
 
+$("body").css("background-color", "blue");
 
-$('body').css("background-color", "papayawhip");
+$("body").append("<h1>This is a test!</h1>");

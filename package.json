@@ -6,13 +6,14 @@
   "scripts": {
     "build": "webpack",
     "build:watch": "webpack --watch",
+    "build:production": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StevenHampton/npm-exercises.git"
   },
-  "author": "",
+  "author": "Steven Hampton",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StevenHampton/npm-exercises/issues"
